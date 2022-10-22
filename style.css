@@ -1,6 +1,97 @@
-body{
-    background-color: darkgrey;
+/* 
+>> Documentation for CSS
+>> Page: 10
+https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+ */
+
+/* '*'
+Select ALL elements (usually placed at the top)
+ */
+* {
+    text-align: right;
 }
-h2{
-    color:papayawhip;
+
+/* element
+The basic HTML element use
+ */
+body {
+    background-color: rgb(136, 124, 175);
 }
+
+/* element
+The basic HTML element use
+ */
+li {
+    list-style: name;
+    display: inline-block;
+}
+
+/* .class
+Select an individual OR a group of elements by given name
+*/
+.webtext {
+    border: 5px dashed rgb(88, 42, 114);
+    color: rgb(38, 23, 88);
+}
+
+/* #id
+Select ONLY individual elements by a given id
+*/
+#div1 {
+    background: rgb(97, 81, 146, 0.3);
+}
+
+/* element, element
+Same, but can select multiple elements with comma 
+*/
+h1,
+p {
+    text-align: center;
+    color: rgb(103, 60, 230);
+}
+
+/* element element
+First element is the parant and the rest are children (hierarchy)
+*/
+h2 p {
+    text-align: right;
+    border: 5px solid rgb(88, 42, 114);
+    color: rgb(106, 144, 36);
+}
+
+/* element > element
+Select all the parent of THAT first/top element only
+*/
+h3>p {
+    text-align: right;
+    border: 5px solid rgb(88, 42, 114);
+    color: rgb(39, 165, 196);
+}
+
+/* element + element
+Select any element AFTER the first one
+*/
+h4+p {
+    text-align: right;
+    border: 10px solid rgb(165, 115, 34);
+    color: rgb(119, 21, 144);
+}
+
+/* :hover
+Trigger properties once placed over element
+*/
+h5:hover {
+    color: rgb(230, 60, 60);
+    text-align: center;
+}
+
+/* 
+:last-child
+In a class group select the LAST element to be affected
+
+:first-child
+In a class group select the FIRST element to be affected
+
+!important
+Manually override the hierarchy (not recommended)
+*/
