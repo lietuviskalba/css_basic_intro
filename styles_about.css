@@ -1,0 +1,40 @@
+/*
+>> Documentation for CSS
+>> Page: 11
+https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+*/
+
+body {
+    background-color: rgb(136, 124, 175);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* 
+1	text-decoration	- Sets the appearance of various lines for the text
+2	text-transform	- Sets the capitalization (Upper, lower, etc.)
+3	line-height	    - Sets the height of a line box. Used to set the distance between lines of text
+4   font-family	    - Specifies a prioritized list of generic family names (THIS time LOCAL)
+*/
+#paragraph_1 {
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-family: "Times new Roman";
+}
+
+/* 
+1   font-style	- Allows italic or oblique faces to be selected (ITALIC setting)
+2	font-weight - Weight of the font, their degree of blackness or stroke thickness (BOLD setting)
+3	font-size	- Sets the size of the text
+4	font-family	- Specifies a prioritized list of font family names (THIS time CUSTOM)
+*/
+#paragraph_2 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 125%;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
