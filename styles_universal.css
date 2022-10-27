@@ -1,3 +1,29 @@
+/* 
+>> Documentation for CSS
+    [] Box model for login.html
+>> Page: 12
+>> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+*/
+/* 
+The CSS box model is essentially a box that wraps around every HTML element. 
+It consists of: 
+    Margins
+    Borders
+    Padding
+    The actual content
+ */
+.box_model {
+    display: inline-block;
+    
+    border: 5px solid red;
+    padding: 5px 20px 10px 1px; /* TOP RIGHT BOTTOM LEFT (The order of individual padding) */
+    margin: 0px 20px 0px 20px;  /* TOP RIGHT BOTTOM LEFT (The order of individual margin) */
+    /* content */
+    width: 25px;
+    height: 50px;
+
+}
+
 body {
     background-color: rgb(136, 124, 175);
 }
