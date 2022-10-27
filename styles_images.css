@@ -1,0 +1,36 @@
+/* 
+>> Documentation for CSS
+>> Page: 11
+https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+ */
+
+/* Image CSS manipulation */
+/* Float; It floats the image into a direction (left or right). The text will wrap around.
+ */
+img {
+    float: right;
+}
+
+/*  
+>>The clear property controls the flow next to floated elements.
+>>The clear property specifies what should happen with the element that is next to a floating element.
+*/
+footer {
+    clear: both;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(136, 124, 175);
+}
+
+li {
+    list-style: name;
+    display: inline-block;
+}
+
+h1,
+p {
+    text-align: center;
+    color: rgb(103, 60, 230);
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(136, 124, 175);
+}
+
+li {
+    list-style: name;
+    display: inline-block;
+}
+
+h1,
+p {
+    text-align: center;
+    color: rgb(103, 60, 230);
+}
