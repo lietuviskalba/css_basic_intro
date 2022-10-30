@@ -64,7 +64,7 @@ h2 p {
 Select all the parent of THAT first/top element only
 */
 h3>p {
-    text-align: right;
+    text-align: center;
     border: 5px solid rgb(88, 42, 114);
     color: rgb(39, 165, 196);
 }
