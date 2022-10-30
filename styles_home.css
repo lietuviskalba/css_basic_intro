@@ -49,6 +49,7 @@ h1,
 p {
     text-align: center;
     color: rgb(103, 60, 230);
+
 }
 
 /* element element
@@ -86,13 +87,22 @@ h5:hover {
     text-align: center;
 }
 
+/* !important
+Manually override the hierarchy (not recommended) 
+*/
+h2 {
+    text-align: center !important;
+    text-transform: uppercase !important;
+    text-decoration: underline !important;
+    font-weight: 1000 !important;
+    font-size: 90% !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
 /* 
 :last-child
 In a class group select the LAST element to be affected
 
 :first-child
 In a class group select the FIRST element to be affected
-
-!important
-Manually override the hierarchy (not recommended)
 */
