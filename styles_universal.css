@@ -12,15 +12,29 @@ It consists of:
     Padding
     The actual content
  */
-.box_model {
+.box_model_1 {
     display: inline-block;
-    
-    border: 5px solid red;
+
+    /* box model */
+    margin: 0px 20px 10px 20px;  /* TOP RIGHT BOTTOM LEFT (The order of individual margin) */
+    border: 5px solid rgb(220, 164, 33);
     padding: 5px 20px 10px 1px; /* TOP RIGHT BOTTOM LEFT (The order of individual padding) */
-    margin: 0px 20px 0px 20px;  /* TOP RIGHT BOTTOM LEFT (The order of individual margin) */
     /* content */
     width: 25px;
     height: 50px;
+
+}
+
+.box_model_2 {
+    display: inline-block;
+    
+    /* box model */
+    margin: 10px 20px;  /* TOP&BOTTOM RIGHT&LEFT (The order of dou margin) */
+    border: 5px solid rgb(35, 57, 204);
+    padding: 5px 20px; /* TOP&BOTTOM RIGHT&LEFT (The order of dou padding) */
+    /* content */
+    width: 10px;
+    height: 25px;
 
 }
 
@@ -33,8 +47,27 @@ li {
     display: inline-block;
 }
 
-h1,
-p {
+h1
+{
     text-align: center;
+    font-size: 200%;
     color: rgb(103, 60, 230);
+}
+
+h2{
+    text-align: center;
+    font-size: 150%;
+    color: rgb(255, 245, 170); 
+
+    border: 2px dashed rgb(35, 57, 204);
+
+    /* content */
+    width: 70px;
+    height: 60px;
+}
+
+hr{
+    margin: 25px 10px;
+    padding: 2px 5px;
+    border-top: 10px dotted rgb(134, 9, 179);
 }

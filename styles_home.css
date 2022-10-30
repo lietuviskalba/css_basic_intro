@@ -14,14 +14,14 @@ Select ALL elements (usually placed at the top)
 
 /* element
 The basic HTML element use
- */
+*/
 body {
     background-color: rgb(136, 124, 175);
 }
 
 /* element
 The basic HTML element use
- */
+*/
 li {
     list-style: name;
     display: inline-block;
