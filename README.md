@@ -1,5 +1,5 @@
 # css_basic_intro
-CSS introduction for mentoring and future refrence.
+CSS introduction for mentoring and future reference.
 
 >> Documentation for CSS
 >> Page: 9 (start of CSS basics)
